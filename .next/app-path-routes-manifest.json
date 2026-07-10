@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/services/page": "/services",
+  "/blog/page": "/blog",
+  "/horoscope/page": "/horoscope"
+}
