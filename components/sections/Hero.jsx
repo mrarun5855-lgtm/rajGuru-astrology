@@ -162,6 +162,8 @@ export default function Hero() {
                         color: "#ffffff",
                       }}
                     >
+                      Trusted <span style={{ color: "#c9a84c" }}>Vedic Astrology</span> Guidance
+                      <br />
                       {slide.title}{" "}
                       <span style={{ color: "#c9a84c" }}>
                         {slide.titleHighlight}
@@ -175,7 +177,7 @@ export default function Hero() {
                       className="text-base md:text-lg leading-relaxed mb-8 max-w-xl"
                       style={{ color: "#9a9ab0" }}
                     >
-                      {slide.description}
+                      {slide.description} Discover trusted astrology consultation, daily horoscope insights, Kundli analysis, and Vastu guidance for love, career, and life decisions.
                     </motion.p>
 
                     <motion.div

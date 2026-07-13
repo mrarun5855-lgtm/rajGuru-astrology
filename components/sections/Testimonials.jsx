@@ -17,7 +17,7 @@ const testimonials = [
     profession: "Software Engineer",
     rating: 5,
     review:
-      "AstroVedic completely transformed my understanding of my life path. The birth chart analysis was incredibly accurate and the predictions have been spot on. Highly recommend!",
+      "Guru Astrology completely transformed my understanding of my life path. The birth chart analysis was incredibly accurate and the predictions have been spot on. Highly recommend!",
     avatar: "👩",
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     profession: "Business Owner",
     rating: 5,
     review:
-      "I was skeptical at first, but the Kundli analysis and Vastu consultation from AstroVedic helped me make the right decisions for my business. Revenue has increased significantly!",
+      "I was skeptical at first, but the Kundli analysis and Vastu consultation from Guru Astrology helped me make the right decisions for my business. Revenue has increased significantly!",
     avatar: "👨",
   },
   {
@@ -35,7 +35,7 @@ const testimonials = [
     profession: "Teacher",
     rating: 5,
     review:
-      "The gemstone recommendations were perfect for my situation. I feel more balanced and positive since I started wearing the suggested stones. Thank you AstroVedic!",
+      "The gemstone recommendations were perfect for my situation. I feel more balanced and positive since I started wearing the suggested stones. Thank you Guru Astrology!",
     avatar: "👩‍🏫",
   },
   {
@@ -53,7 +53,7 @@ const testimonials = [
     profession: "Doctor",
     rating: 5,
     review:
-      "I consulted AstroVedic for marriage compatibility and it was the best decision. The detailed Kundli matching report gave us complete clarity and confidence.",
+      "I consulted Guru Astrology for marriage compatibility and it was the best decision. The detailed Kundli matching report gave us complete clarity and confidence.",
     avatar: "👩‍⚕️",
   },
   {

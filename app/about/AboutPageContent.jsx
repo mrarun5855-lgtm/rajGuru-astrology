@@ -18,7 +18,7 @@ import Newsletter from "@/components/sections/Newsletter";
 const milestones = [
   {
     year: "1999",
-    title: "Founded AstroVedic",
+    title: "Founded Guru Astrology",
     desc: "Started with a small team of 3 dedicated astrologers.",
   },
   {
@@ -120,7 +120,7 @@ export default function AboutPageContent() {
             className="text-4xl md:text-5xl font-bold text-white mb-4"
             style={{ fontFamily: "var(--font-playfair), serif" }}
           >
-            About <span style={{ color: "#c9a84c" }}>AstroVedic</span>
+            About <span style={{ color: "#c9a84c" }}>Guru Astrology</span>
           </motion.h1>
           <motion.nav
             initial={{ opacity: 0 }}
@@ -267,7 +267,7 @@ export default function AboutPageContent() {
                 <span style={{ color: "#c9a84c" }}>Ancient Wisdom</span>
               </h2>
               <p className="leading-relaxed mb-6" style={{ color: "#9a9ab0" }}>
-                AstroVedic was founded in 1999 with a singular mission: to bring
+                Guru Astrology was founded in 1999 with a singular mission: to bring
                 the profound wisdom of Vedic astrology to people seeking
                 clarity, direction, and deeper understanding of their life&apos;s
                 journey.

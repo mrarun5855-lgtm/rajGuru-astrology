@@ -117,7 +117,7 @@ export default function Contact() {
               </p>
               <p className="text-sm" style={{ color: "#9a9ab0" }}>
                 Book a session with one of our expert astrologers and get the
-                guidance you need to navigate life&apos;s challenges.
+                guidance you need for love, career, marriage, health and spiritual clarity.
               </p>
             </div>
 
@@ -207,7 +207,7 @@ export default function Contact() {
                   fontFamily: "var(--font-playfair), serif",
                 }}
               >
-                Send Us a <span style={{ color: "#c9a84c" }}>Message</span>
+                Ask for a <span style={{ color: "#c9a84c" }}>Consultation</span>
               </h3>
 
               {/* {isSubmitSuccessful && (

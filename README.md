@@ -1,16 +1,42 @@
-# React + Vite
+# Guru Astrology — Next.js Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This repository contains the Guru Astrology online presence built with Next.js App Router and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Vedic astrology consultation and horoscope services website
+- Contact and booking form with direct email support
+- SEO-enhanced metadata, structured data, sitemap and robots rules
+- Mobile-friendly layout with branded hero, services, blog, and contact pages
 
-## React Compiler
+## Local Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the Oxlint configuration
+Open `http://localhost:3000` to view the site.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Production Build
+
+```bash
+npm run build
+npm run start
+```
+
+## Deployment
+
+Use Vercel or another Next.js-compatible hosting provider.
+
+If deploying to Vercel, set `NEXT_PUBLIC_SITE_URL` to your live domain.
+
+## Assets
+
+- Favicon: `public/favicon.svg`
+- Open Graph image: `public/og-image.svg`
+
+## Notes
+
+- The site is configured for `https://www.guruastrology.in`
+- Update environment variables in Vercel or your hosting platform as needed

@@ -1,9 +1,9 @@
 import HoroscopePageContent from "./HoroscopePageContent";
 
 export const metadata = {
-  title: "Daily Horoscope — All 12 Zodiac Signs",
+  title: "Daily Horoscope | Free Vedic Horoscope for All 12 Zodiac Signs",
   description:
-    "Get your free daily horoscope for all 12 zodiac signs. Personalized love, career, and health predictions based on Vedic astrology.",
+    "Read your free daily horoscope for all 12 zodiac signs with Vedic astrology insights for love, career, health and life guidance.",
   keywords: [
     "daily horoscope",
     "zodiac signs",
@@ -13,13 +13,14 @@ export const metadata = {
     "gemini horoscope",
     "cancer horoscope",
     "vedic horoscope",
+    "horoscope today",
   ],
-  alternates: { canonical: "/horoscope" },
+  alternates: { canonical: "https://www.guruastrology.in/horoscope" },
   openGraph: {
-    title: "Daily Horoscope for All 12 Zodiac Signs | AstroVedic",
+    title: "Daily Horoscope for All 12 Zodiac Signs | Guru Astrology",
     description:
       "Get your free daily horoscope with love, career, and health predictions based on Vedic astrology.",
-    url: "/horoscope",
+    url: "https://www.guruastrology.in/horoscope",
   },
 };
 
@@ -36,13 +37,13 @@ const horoscopeSchema = {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://astrovedic.com",
+        item: "https://www.guruastrology.in",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Horoscope",
-        item: "https://astrovedic.com/horoscope",
+        item: "https://www.guruastrology.in/horoscope",
       },
     ],
   },

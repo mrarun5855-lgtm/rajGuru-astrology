@@ -161,10 +161,10 @@ export default function About() {
               className="text-base leading-relaxed mb-4"
               style={{ color: "#9a9ab0" }}
             >
-              Welcome to AstroVedic, your trusted destination for authentic
+              Welcome to Guru Astrology, your trusted destination for authentic
               Vedic astrology services. With over 25 years of experience, our
               certified astrologers have guided thousands of individuals through
-              life&apos;s most important decisions.
+              life&apos;s most important decisions including career, love, marriage, and finance.
             </p>
             <p
               className="text-base leading-relaxed mb-8"

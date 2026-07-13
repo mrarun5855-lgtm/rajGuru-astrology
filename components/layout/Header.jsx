@@ -58,7 +58,7 @@ export default function Header() {
           </span>
           <span style={{ color: "rgba(255,255,255,0.5)" }}>|</span>
           <a
-            href="mailto:astrology@example.com"
+            href="mailto:dobrabhatt@gmail.com"
             style={{ color: "rgba(255,255,255,0.85)" }}
           >
             dobrabhatt@gmail.com
@@ -92,7 +92,7 @@ export default function Header() {
             <Link
               href="/"
               className="flex items-center gap-3 no-underline"
-              aria-label="AstroVedic Home"
+              aria-label="Guru Astrology Home"
             >
               <div
                 className="w-10 h-10 rounded-full flex items-center justify-center"

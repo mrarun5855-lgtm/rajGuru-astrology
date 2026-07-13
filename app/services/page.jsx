@@ -1,31 +1,33 @@
 import ServicesPageContent from "./ServicesPageContent";
 
 export const metadata = {
-  title: "Astrology Services — Horoscope, Kundli, Vastu & More",
+  title: "Astrology Services | Horoscope, Kundli, Vastu, Tarot & Numerology",
   description:
-    "Explore our full range of Vedic astrology services including Horoscope readings, Kundli analysis, Vastu Shastra, Tarot, Numerology, Gemstone consultation and more.",
+    "Explore trusted Vedic astrology services including horoscope readings, Kundli analysis, Kundli matching, Vastu Shastra, Tarot, Numerology and Gemstone consultation.",
   keywords: [
     "astrology services",
     "kundli analysis",
+    "kundli matching",
     "vastu shastra",
     "tarot reading",
     "numerology",
     "gemstone consultation",
     "birth chart",
+    "vedic astrology services",
   ],
-  alternates: { canonical: "/services" },
+  alternates: { canonical: "https://www.guruastrology.in/services" },
   openGraph: {
-    title: "Astrology Services | AstroVedic",
+    title: "Astrology Services | Guru Astrology",
     description:
       "Explore our complete range of Vedic astrology services — Horoscope, Kundli, Tarot, Vastu, Gemstones and more.",
-    url: "/services",
+    url: "https://www.guruastrology.in/services",
   },
 };
 
 const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "AstroVedic Services",
+  name: "Guru Astrology Services",
   description: "Professional Vedic astrology services",
   itemListElement: [
     {
@@ -74,13 +76,13 @@ const servicesSchema = {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://astrovedic.com",
+        item: "https://www.guruastrology.in",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Services",
-        item: "https://astrovedic.com/services",
+        item: "https://www.guruastrology.in/services",
       },
     ],
   },

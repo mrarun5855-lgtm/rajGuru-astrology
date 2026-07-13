@@ -1,21 +1,21 @@
 export default function manifest() {
   return {
-    name: "AstroVedic — Professional Astrology Services",
-    short_name: "AstroVedic",
+    name: "Guru Astrology — Vedic Astrology Consultation & Horoscope",
+    short_name: "Guru Astrology",
     description:
-      "Book online astrology consultation with experienced Vedic astrologers.",
+      "Book online astrology consultation with experienced Vedic astrologers for horoscope, Kundli and Vastu guidance.",
     start_url: "/",
     display: "standalone",
     background_color: "#0d0d1a",
     theme_color: "#8b1a1a",
     orientation: "portrait",
     icons: [
-      { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
-      { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+      { src: "/favicon.svg", sizes: "192x192", type: "image/svg+xml" },
+      { src: "/favicon.svg", sizes: "512x512", type: "image/svg+xml" },
       {
-        src: "/icons/icon-512.png",
+        src: "/favicon.svg",
         sizes: "512x512",
-        type: "image/png",
+        type: "image/svg+xml",
         purpose: "maskable",
       },
     ],

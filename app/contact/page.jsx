@@ -1,30 +1,31 @@
 import ContactPageContent from "./ContactPageContent";
 
 export const metadata = {
-  title: "Contact Us — Book an Astrology Consultation",
+  title: "Contact Guru Astrology | Book Your Consultation",
   description:
-    "Get in touch with AstroVedic to book your personalized astrology consultation. Call, email, or WhatsApp us. We are available 7 days a week.",
+    "Get in touch with Guru Astrology to book your personalized astrology consultation by phone, WhatsApp or email.",
   keywords: [
     "contact astrologer",
     "book astrology consultation",
     "astrology appointment",
-    "contact astrovedic",
+    "contact guru astrology",
+    "vedic astrologer contact",
   ],
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: "https://www.guruastrology.in/contact" },
   openGraph: {
-    title: "Contact AstroVedic | Book Your Consultation",
+    title: "Contact Guru Astrology | Book Your Consultation",
     description:
-      "Reach out to AstroVedic to book your astrology consultation. Available Mon-Sat 9AM-9PM.",
-    url: "/contact",
+      "Reach out to Guru Astrology for trusted astrology guidance and consultation booking.",
+    url: "https://www.guruastrology.in/contact",
   },
 };
 
 const contactSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  name: "Contact AstroVedic",
+  name: "Contact Guru Astrology",
   description:
-    "Contact page for booking astrology consultations with AstroVedic.",
+    "Contact page for booking astrology consultations with Guru Astrology.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -32,13 +33,13 @@ const contactSchema = {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://astrovedic.com",
+        item: "https://www.guruastrology.in",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Contact",
-        item: "https://astrovedic.com/contact",
+        item: "https://www.guruastrology.in/contact",
       },
     ],
   },

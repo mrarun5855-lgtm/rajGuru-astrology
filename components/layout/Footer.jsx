@@ -29,7 +29,7 @@ export default function Footer() {
             <Link
               href="/"
               className="flex items-center gap-3 no-underline mb-5"
-              aria-label="AstroVedic Home"
+              aria-label="Guru Astrology Home"
             >
               <div
                 className="w-10 h-10 rounded-full flex items-center justify-center"

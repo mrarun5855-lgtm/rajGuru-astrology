@@ -70,7 +70,7 @@ export default function Services() {
           subtitle="What We Offer"
           title="Our Astrology"
           highlight="Services"
-          description="From Vedic horoscopes to Tarot readings, we offer a comprehensive range of astrology services to guide you through every aspect of life."
+          description="From daily horoscope insights to Kundli analysis, Vastu guidance, Tarot readings and Numerology, we offer trusted astrology services for every life concern."
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

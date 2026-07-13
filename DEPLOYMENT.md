@@ -1,4 +1,4 @@
-# Vercel Deployment Guide for AstroVedic Next.js
+# Vercel Deployment Guide for Guru Astrology Next.js
 
 ## Deploy to Vercel
 
@@ -6,19 +6,19 @@
 
    ```bash
    git init
-   git add .
-   git commit -m "Migrate to Next.js 15 App Router"
-   git remote add origin https://github.com/YOUR_USERNAME/astrovedic.git
-   git push -u origin main
+git add .
+git commit -m "Deploy Guru Astrology Next.js site"
+git remote add origin https://github.com/YOUR_USERNAME/guru-astrology.git
+git push -u origin main
    ```
 
 2. Go to [vercel.com](https://vercel.com) → Import Project → Select your repository
 
 3. Set Environment Variables in Vercel:
-   - `NEXT_PUBLIC_SITE_URL` = `https://astrovedic.com`
-   - `NEXT_PUBLIC_CONTACT_EMAIL` = `astrology@example.com`
-   - `NEXT_PUBLIC_PHONE` = `+911800124105`
-   - `NEXT_PUBLIC_WHATSAPP` = `911800124105`
+   - `NEXT_PUBLIC_SITE_URL` = `https://www.guruastrology.in`
+   - `NEXT_PUBLIC_CONTACT_EMAIL` = `dobrabhatt@gmail.com`
+   - `NEXT_PUBLIC_PHONE` = `+919599327922`
+   - `NEXT_PUBLIC_WHATSAPP` = `919599327922`
 
 4. Deploy — Vercel auto-detects Next.js and configures everything.
 
@@ -29,8 +29,7 @@
 
 ## Performance Notes
 
-- All pages are statically generated (SSG) by default
-- Images should be placed in `public/images/`
-- OG image: place at `public/og-image.png` (1200×630px)
-- App icons: place at `public/icons/icon-192.png` and `public/icons/icon-512.png`
-- Favicon: replace `public/favicon.ico`
+- The site uses Next.js App Router with static site generation (SSG) for most pages
+- Place social preview images in `public/`
+- Current OG share image: `public/og-image.svg`
+- Current favicon: `public/favicon.svg`

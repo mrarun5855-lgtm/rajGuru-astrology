@@ -12,22 +12,24 @@ import Contact from "@/components/sections/Contact";
 import Newsletter from "@/components/sections/Newsletter";
 
 export const metadata = {
-  title: "Professional Astrology Consultation",
+  title: "Astrology Consultation | Vedic Horoscope, Kundli & Vastu",
   description:
-    "Book online astrology consultation with experienced Vedic astrologers. Get personalized horoscope readings, Kundli analysis, Tarot reading & more.",
+    "Book trusted astrology consultation with expert Vedic astrologers for horoscope, Kundli analysis, Vastu, Tarot, Numerology and life guidance.",
   keywords: [
     "astrology consultation",
     "vedic astrology",
     "horoscope reading",
     "kundli analysis",
+    "kundli matching",
     "online astrologer",
+    "astrology services",
   ],
-  alternates: { canonical: "/" },
+  alternates: { canonical: "https://www.guruastrology.in/" },
   openGraph: {
-    title: "AstroVedic | Professional Astrology Consultation",
+    title: "Guru Astrology | Vedic Astrology Consultation, Horoscope & Kundli",
     description:
-      "Book online astrology consultation with experienced Vedic astrologers.",
-    url: "/",
+      "Book trusted astrology consultation and explore daily horoscope, Kundli analysis, Vastu guidance and more.",
+    url: "https://www.guruastrology.in/",
   },
 };
 
@@ -68,6 +70,41 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homePageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What services does Guru Astrology offer?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Guru Astrology offers Vedic astrology consultation, daily horoscope readings, Kundli analysis, Kundli matching, Vastu guidance, Tarot reading and Numerology services.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How can I book an astrology consultation?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "You can book a consultation through the contact page, by phone, or by WhatsApp with Guru Astrology.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is Guru Astrology suitable for horoscope and Kundli analysis?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, Guru Astrology provides daily horoscope guidance, Kundli analysis, birth chart insights and remedies for life challenges.",
+                },
+              },
+            ],
+          }),
+        }}
       />
       <Hero />
       <About />

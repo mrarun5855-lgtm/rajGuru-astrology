@@ -142,7 +142,7 @@ export default function WhyChoose() {
               style={{ color: "#9a9ab0" }}
             >
               With decades of experience and thousands of satisfied clients,
-              AstroVedic has established itself as the most reliable and
+              Guru Astrology has established itself as the most reliable and
               accurate astrology platform in the industry.
             </p>
 

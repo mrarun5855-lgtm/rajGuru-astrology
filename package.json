@@ -1,7 +1,8 @@
 {
-  "name": "astrology-website",
+  "name": "guru-astrology",
   "private": true,
   "version": "1.0.0",
+  "description": "Guru Astrology website built with Next.js and Tailwind CSS.",
   "type": "module",
   "scripts": {
     "dev": "next dev",

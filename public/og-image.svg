@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#3b0764" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" rx="40" fill="url(#bg)" />
+  <g filter="url(#shadow)">
+    <circle cx="180" cy="165" r="120" fill="url(#accent)" />
+    <path d="M184 90C170 136 130 204 96 246C146 256 198 258 226 194C262 108 222 72 184 90Z" fill="#ffffff" opacity="0.92" />
+  </g>
+  <text x="640" y="230" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" fill="#F8FAFC">Guru Astrology</text>
+  <text x="640" y="320" font-family="Inter, Arial, sans-serif" font-size="34" fill="#E2E8F0">Vedic astrology consultation, horoscope &amp; Kundli guidance</text>
+  <rect x="640" y="340" width="440" height="6" rx="3" fill="url(#accent)" />
+  <text x="640" y="410" font-family="Inter, Arial, sans-serif" font-size="24" fill="#CBD5E1">Trusted astrologers for love, career, health and life clarity</text>
+  <text x="640" y="480" font-family="Inter, Arial, sans-serif" font-size="20" fill="#94A3B8">www.guruastrology.in</text>
+</svg>

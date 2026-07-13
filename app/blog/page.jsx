@@ -1,9 +1,9 @@
 import BlogPageContent from "./BlogPageContent";
 
 export const metadata = {
-  title: "Astrology Blog — Articles, Tips & Vedic Wisdom",
+  title: "Astrology Blog | Vedic Tips, Horoscope Articles & Spiritual Guidance",
   description:
-    "Read our latest astrology articles covering horoscopes, Mercury retrograde, numerology, gemstones, and Vedic wisdom to guide your spiritual journey.",
+    "Read astrology articles on horoscopes, Mercury retrograde, numerology, gemstones, Kundli insights and Vedic wisdom for guidance and clarity.",
   keywords: [
     "astrology blog",
     "horoscope articles",
@@ -11,22 +11,23 @@ export const metadata = {
     "mercury retrograde",
     "numerology",
     "zodiac articles",
+    "kundli insights",
   ],
-  alternates: { canonical: "/blog" },
+  alternates: { canonical: "https://www.guruastrology.in/blog" },
   openGraph: {
-    title: "Astrology Blog | AstroVedic",
+    title: "Astrology Blog | Guru Astrology",
     description:
       "Explore our astrology articles, Vedic wisdom guides, and spiritual insights.",
-    url: "/blog",
+    url: "https://www.guruastrology.in/blog",
   },
 };
 
 const blogSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "AstroVedic Blog",
+  name: "Guru Astrology Blog",
   description: "Astrology articles, Vedic wisdom and spiritual guides.",
-  url: "https://astrovedic.com/blog",
+  url: "https://www.guruastrology.in/blog",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -34,13 +35,13 @@ const blogSchema = {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://astrovedic.com",
+        item: "https://www.guruastrology.in",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://astrovedic.com/blog",
+        item: "https://www.guruastrology.in/blog",
       },
     ],
   },

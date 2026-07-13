@@ -21,29 +21,35 @@ const inter = Inter({
 
 export const metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://astrovedic.com",
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.guruastrology.in",
   ),
   title: {
-    default: "AstroVedic | Professional Astrology Services",
-    template: "%s | AstroVedic",
+    default: "Guru Astrology | Vedic Astrology Consultation, Horoscope & Kundli",
+    template: "%s | Guru Astrology",
   },
   description:
-    "Book online astrology consultation with experienced Vedic astrologers. Get personalized horoscope readings, Kundli analysis, Tarot, Vastu & more.",
+    "Get trusted Vedic astrology consultation, daily horoscope, Kundli analysis, Kundli matching, Vastu guidance, Tarot and Numerology services at Guru Astrology.",
   keywords: [
-    "astrology",
-    "vedic astrology",
+    "guru astrology",
+    "vedic astrology consultation",
+    "astrology consultation",
     "horoscope",
-    "kundli",
-    "tarot reading",
+    "kundli analysis",
+    "kundli matching",
     "vastu shastra",
+    "tarot reading",
     "numerology",
-    "astrologer",
-    "birth chart",
-    "zodiac",
+    "online astrologer",
+    "best astrologer",
+    "astrology services",
+    "zodiac signs",
   ],
-  authors: [{ name: "AstroVedic" }],
-  creator: "AstroVedic",
-  publisher: "AstroVedic",
+  alternates: {
+    canonical: "https://www.guruastrology.in/",
+  },
+  authors: [{ name: "Guru Astrology" }],
+  creator: "Guru Astrology",
+  publisher: "Guru Astrology",
   robots: {
     index: true,
     follow: true,
@@ -51,42 +57,40 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "/",
-    siteName: "AstroVedic",
-    title: "AstroVedic | Professional Astrology Services",
+    locale: "en_IN",
+    url: "https://www.guruastrology.in/",
+    siteName: "Guru Astrology",
+    title: "Guru Astrology | Vedic Astrology Consultation, Horoscope & Kundli",
     description:
-      "Book online astrology consultation with experienced Vedic astrologers.",
-    images: [
-      { url: "/og-image.png", width: 1200, height: 630, alt: "AstroVedic" },
-    ],
+      "Book trusted astrology consultation and explore daily horoscope, Kundli analysis, Vastu guidance and more.",
+    images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: "Guru Astrology" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AstroVedic | Professional Astrology Services",
+    title: "Guru Astrology | Vedic Astrology Consultation, Horoscope & Kundli",
     description:
-      "Book online astrology consultation with experienced Vedic astrologers.",
-    images: ["/og-image.png"],
+      "Book trusted astrology consultation and explore daily horoscope, Kundli analysis, Vastu guidance and more.",
+    images: ["/og-image.svg"],
   },
 };
 
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": ["Organization", "LocalBusiness"],
-  name: "AstroVedic",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://astrovedic.com",
-  logo: `${process.env.NEXT_PUBLIC_SITE_URL || "https://astrovedic.com"}/favicon.ico`,
+  name: "Guru Astrology",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.guruastrology.in",
+  logo: `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.guruastrology.in"}/favicon.svg`,
   description:
-    "Professional Vedic astrology services including horoscope, Kundli analysis, Tarot reading, Vastu Shastra, and more.",
-  telephone: "+911800124105",
-  email: "astrology@example.com",
+    "Trusted Vedic astrology services including horoscope readings, Kundli analysis, Kundli matching, Vastu guidance, Tarot reading and Numerology.",
+  telephone: "+919599327922",
+  email: "dobrabhatt@gmail.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Gotham Hall, 1356 Broadway Square",
-    addressLocality: "New York",
-    addressRegion: "NY",
-    postalCode: "10018",
-    addressCountry: "US",
+    streetAddress: "Birkuchi Road, Narangi",
+    addressLocality: "Guwahati",
+    addressRegion: "Assam",
+    postalCode: "781026",
+    addressCountry: "IN",
   },
   openingHoursSpecification: [
     {
@@ -109,23 +113,19 @@ const organizationSchema = {
       closes: "18:00",
     },
   ],
-  sameAs: [
-    "https://facebook.com/astrovedic",
-    "https://twitter.com/astrovedic",
-    "https://instagram.com/astrovedic",
-  ],
+  sameAs: [process.env.NEXT_PUBLIC_SITE_URL || "https://www.guruastrology.in"],
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "AstroVedic",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://astrovedic.com",
+  name: "Guru Astrology",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.guruastrology.in",
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || "https://astrovedic.com"}/services?q={search_term_string}`,
+      urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.guruastrology.in"}/services?q={search_term_string}`,
     },
     "query-input": "required name=search_term_string",
   },

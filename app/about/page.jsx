@@ -1,30 +1,31 @@
 import AboutPageContent from "./AboutPageContent";
 
 export const metadata = {
-  title: "About Us - Our Story & Team",
+  title: "About Guru Astrology | Our Story & Expert Astrologers",
   description:
-    "Learn about AstroVedic, our certified Vedic astrologers, our 25-year journey, and our mission to bring authentic astrology guidance to the world.",
+    "Learn about Guru Astrology, our expert Vedic astrologers, our journey, and our mission to deliver authentic astrology guidance for life decisions.",
   keywords: [
-    "about astrovedic",
+    "about guru astrology",
     "vedic astrologers",
     "astrology team",
     "certified astrologer",
+    "best astrologer",
   ],
-  alternates: { canonical: "/about" },
+  alternates: { canonical: "https://www.guruastrology.in/about" },
   openGraph: {
-    title: "About AstroVedic | Our Story & Expert Team",
+    title: "About Guru Astrology | Expert Vedic Astrologers",
     description:
-      "Meet our expert Vedic astrologers and learn about our 25-year journey of authentic astrological guidance.",
-    url: "/about",
+      "Meet our experienced Vedic astrologers and learn how Guru Astrology helps people with guidance and clarity.",
+    url: "https://www.guruastrology.in/about",
   },
 };
 
 const aboutSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  name: "About AstroVedic",
+  name: "About Guru Astrology",
   description:
-    "AstroVedic was founded in 1999 with a mission to bring Vedic astrology wisdom to people seeking clarity and direction in life.",
+    "Guru Astrology was founded in 1999 with a mission to bring Vedic astrology wisdom to people seeking clarity and direction in life.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -32,13 +33,13 @@ const aboutSchema = {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://astrovedic.com",
+        item: "https://www.guruastrology.in",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "About",
-        item: "https://astrovedic.com/about",
+        item: "https://www.guruastrology.in/about",
       },
     ],
   },
