@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: <FaPhone size={18} />,
     title: "Call Us",
-    lines: ["+(91) 9599327922", "+(91) 9205211331"],
+    lines: ["+(91) 9599327922", "+(91) 8750880631"],
   },
   {
     icon: <FaEnvelope size={18} />,
