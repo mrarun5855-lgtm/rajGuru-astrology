@@ -15,17 +15,17 @@ const contactInfo = [
   {
     icon: <FaMapMarkerAlt size={18} />,
     title: "Visit Us",
-    lines: ["Gotham Hall, 1356 Broadway", "New York, NY 10018, USA"],
+    lines: ["Maa Kamakhya Jyotish Seva Sansthan, Birkuchi Road, Narangi, Guwahati - 781026, Assam, India"],
   },
   {
     icon: <FaPhone size={18} />,
     title: "Call Us",
-    lines: ["+(91) 1800-124-105", "+(91) 1800-326-324"],
+    lines: ["+(91) 9599327922", "+(91) 9205211331"],
   },
   {
     icon: <FaEnvelope size={18} />,
     title: "Email Us",
-    lines: ["astrology@example.com", "support@astrovedic.com"],
+    lines: ["dobrabhatt@gmail.com", "support@guruastrology.com"],
   },
   {
     icon: <FaClock size={18} />,
@@ -35,8 +35,8 @@ const contactInfo = [
   {
     icon: <FaWhatsapp size={18} />,
     title: "WhatsApp Us",
-    lines: ["+(91) 1800-124-105", "Chat with us instantly"],
-    href: "https://wa.me/911800124105?text=Hello%2C%20I%20would%20like%20to%20book%20an%20astrology%20consultation.",
+    lines: ["+(91) 9599327922", "Chat with us instantly"],
+    href: "https://wa.me/919599327922?text=Hello%2C%20I%20would%20like%20to%20book%20an%20astrology%20consultation.",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function Contact() {
       ].join("\n"),
     );
     const mailSubject = encodeURIComponent(`Consultation Request – ${subject}`);
-    const mailto = `mailto:astrology@example.com?subject=${mailSubject}&body=${body}`;
+    const mailto = `mailto:dobrabhatt@gmail.com?subject=${mailSubject}&body=${body}`;
     window.location.href = mailto;
     reset();
   };

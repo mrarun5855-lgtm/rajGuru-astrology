@@ -49,7 +49,7 @@ export default function Footer() {
                     color: "#ffffff",
                   }}
                 >
-                  Astro<span style={{ color: "#c9a84c" }}>Vedic</span>
+                  Guru<span style={{ color: "#c9a84c" }}>Astrology</span>
                 </span>
                 <p
                   className="text-xs tracking-wider"
@@ -71,22 +71,22 @@ export default function Footer() {
               {[
                 {
                   icon: FaFacebook,
-                  href: "https://facebook.com/astrovedic",
+                  href: "https://facebook.com/guruastrology",
                   label: "Facebook",
                 },
                 {
                   icon: FaTwitter,
-                  href: "https://twitter.com/astrovedic",
+                  href: "https://twitter.com/guruastrology",
                   label: "Twitter",
                 },
                 {
                   icon: FaYoutube,
-                  href: "https://youtube.com/astrovedic",
+                  href: "https://youtube.com/guruastrology",
                   label: "YouTube",
                 },
                 {
                   icon: FaInstagram,
-                  href: "https://instagram.com/astrovedic",
+                  href: "https://instagram.com/guruastrology",
                   label: "Instagram",
                 },
               ].map(({ icon: Icon, href, label }) => (
@@ -217,7 +217,7 @@ export default function Footer() {
                   aria-hidden="true"
                 />
                 <span className="text-sm" style={{ color: "#9a9ab0" }}>
-                  Gotham Hall, 1356 Broadway Square, NY 10018, New York, USA
+                  Maa Kamakhya Jyotish Seva Sansthan, Birkuchi Road, Narangi, Guwahati - 781026
                 </span>
               </div>
               <div className="flex items-center gap-3">
@@ -227,11 +227,11 @@ export default function Footer() {
                   aria-hidden="true"
                 />
                 <a
-                  href="mailto:astrology@example.com"
+                  href="mailto:dobrabhatt@gmail.com"
                   className="text-sm no-underline"
                   style={{ color: "#9a9ab0" }}
                 >
-                  astrology@example.com
+                  dobrabhatt@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -241,11 +241,11 @@ export default function Footer() {
                   aria-hidden="true"
                 />
                 <a
-                  href="tel:+911800124105"
+                  href="tel:+919599327922"
                   className="text-sm no-underline"
                   style={{ color: "#9a9ab0" }}
                 >
-                  +(91) 1800-124-105
+                  +(91) 9599327922
                 </a>
               </div>
             </address>
@@ -262,7 +262,7 @@ export default function Footer() {
         }}
       >
         <p>
-          © {year} <span style={{ color: "#c9a84c" }}>AstroVedic</span>. All
+          © {year} <span style={{ color: "#c9a84c" }}>GuruAstrology</span>. All
           rights reserved. Crafted with ✦ for seekers of cosmic truth.
         </p>
       </div>

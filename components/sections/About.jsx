@@ -213,14 +213,14 @@ export default function About() {
                   Call Our Expert
                 </p>
                 <a
-                  href="tel:+911800124105"
+                  href="tel:+919599327922"
                   className="text-lg font-bold no-underline"
                   style={{
                     color: "#c9a84c",
                     fontFamily: "var(--font-playfair), serif",
                   }}
                 >
-                  +(91) 1800-124-105
+                  +(91) 9599327922
                 </a>
               </div>
             </div>

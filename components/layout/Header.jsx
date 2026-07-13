@@ -50,10 +50,10 @@ export default function Header() {
           >
             <FaPhone size={12} />
             <a
-              href="tel:+911800124105"
+              href="tel:+919599327922"
               style={{ color: "rgba(255,255,255,0.85)" }}
             >
-              +(91) 1800-124-105
+              +(91) 9599327922
             </a>
           </span>
           <span style={{ color: "rgba(255,255,255,0.5)" }}>|</span>
@@ -61,7 +61,7 @@ export default function Header() {
             href="mailto:astrology@example.com"
             style={{ color: "rgba(255,255,255,0.85)" }}
           >
-            astrology@example.com
+            dobrabhatt@gmail.com
           </a>
         </div>
         <span
@@ -115,7 +115,7 @@ export default function Header() {
                     color: "#ffffff",
                   }}
                 >
-                  Astro<span style={{ color: "#c9a84c" }}>Vedic</span>
+                  Guru<span style={{ color: "#c9a84c" }}>Astrology</span>
                 </span>
                 <p
                   className="text-xs tracking-wider"

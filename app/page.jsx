@@ -75,7 +75,7 @@ export default function HomePage() {
       <Horoscope />
       <WhyChoose />
       <Counter />
-      <Pricing />
+      {/* <Pricing /> */}
       <Testimonials />
       <Team />
       <Blog />
