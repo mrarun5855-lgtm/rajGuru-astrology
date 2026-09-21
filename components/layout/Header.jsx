@@ -13,7 +13,7 @@ const navLinks = [
   { name: "About", nameHi: "हमारे बारे में", path: "/about" },
   { name: "Services", nameHi: "सेवाएं", path: "/services" },
   { name: "Talk to Astrologer", nameHi: "ज्योतिषी से बात करें", path: "/talk-to-astrologer" },
-  { name: "Register", nameHi: "रजिस्टर करें", path: "/register" },
+  // { name: "Register", nameHi: "रजिस्टर करें", path: "/register" },
   { name: "Horoscope", nameHi: "राशिफल", path: "/horoscope" },
   { name: "Blog", nameHi: "ब्लॉग", path: "/blog" },
   { name: "Contact", nameHi: "संपर्क करें", path: "/contact" },
@@ -150,7 +150,7 @@ export default function Header() {
 
             {/* Desktop Actions */}
             <div className="hidden lg:flex items-center gap-4">
-              <button
+              {/* <button
                 onClick={() => setSearchOpen(!searchOpen)}
                 className="w-9 h-9 rounded-full flex items-center justify-center transition-all"
                 style={{
@@ -162,7 +162,7 @@ export default function Header() {
               >
                 <FaSearch size={14} />
               </button>
-              <LanguageSwitcher />
+              <LanguageSwitcher /> */}
               <Link
                 href={`/${locale}/contact`}
                 className="btn-primary text-sm py-2 px-5 no-underline"
