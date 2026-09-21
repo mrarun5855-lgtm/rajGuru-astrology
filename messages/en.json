@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "horoscope": "Horoscope",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "header": {
+    "phone": "Call Us",
+    "email": "Email",
+    "tagline": "Professional Astrology Services Since 1995"
+  },
+  "hero": {
+    "slide1": {
+      "badge": "Professional Astrology",
+      "title": "Read Your Daily",
+      "titleHighlight": "Horoscope Today",
+      "description": "Discover what the stars have in store for you. Get personalized horoscope readings, Kundli analysis, and expert astrological guidance from our certified astrologers."
+    },
+    "slide2": {
+      "badge": "Ancient Vedic Wisdom",
+      "title": "Unlock The Secrets",
+      "titleHighlight": "Of Your Destiny",
+      "description": "Explore the ancient science of astrology and numerology to understand your life path, relationships, and career prospects with precision and clarity."
+    },
+    "slide3": {
+      "badge": "Expert Consultation",
+      "title": "Connect With",
+      "titleHighlight": "Expert Astrologers",
+      "description": "Get one-on-one consultation with our experienced Vedic astrologers. We offer Kundli matching, Vastu guidance, gemstone recommendations, and more."
+    },
+    "cta": "Book Consultation"
+  },
+  "about": {
+    "title": "About Guru Astrology",
+    "yearsExperience": "Years Experience",
+    "happyClients": "Happy Clients",
+    "servicesOffered": "Services Offered",
+    "consultations": "Consultations",
+    "features": {
+      "feature1": "Expert Vedic Astrologers with 20+ Years Experience",
+      "feature2": "Personalized Birth Chart Analysis",
+      "feature3": "Accurate Predictions & Life Guidance",
+      "feature4": "Confidential & Trusted Consultations"
+    },
+    "cta": "Book Your Consultation",
+    "phone": "Call for Consultation"
+  },
+  "services": {
+    "sectionTitle": "Our Astrology",
+    "sectionHighlight": "Services",
+    "sectionDescription": "From daily horoscope insights to Kundli analysis, Vastu guidance, Tarot readings and Numerology, we offer trusted astrology services for every life concern.",
+    "subtitle": "What We Offer",
+    "service1": {
+      "title": "Vastu Shastra",
+      "description": "Harmonize your living and working spaces with ancient Vastu principles for prosperity and peace."
+    },
+    "service2": {
+      "title": "Birth Journal",
+      "description": "Detailed analysis of your birth chart revealing your life path, personality, and future prospects."
+    },
+    "service3": {
+      "title": "Manglik Dosha",
+      "description": "Expert analysis and remedies for Mangal Dosha for a blissful and harmonious married life."
+    },
+    "service4": {
+      "title": "Lal Kitab",
+      "description": "Ancient Lal Kitab astrology predictions and powerful remedies for your problems."
+    },
+    "service5": {
+      "title": "Crystal Ball",
+      "description": "Scrying and crystal ball readings for future insights and spiritual guidance."
+    },
+    "service6": {
+      "title": "Kundli Dosh",
+      "description": "Identification and effective remedies for all types of Doshas in your Kundli."
+    },
+    "service7": {
+      "title": "Tarot Reading",
+      "description": "Accurate tarot card readings for love, career, and life decisions with deep insights."
+    },
+    "service8": {
+      "title": "Palm Reading",
+      "description": "Palmistry analysis to understand your character, talents, and potential future events."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Contact Us",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get daily horoscope updates and astrology tips",
+    "email": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "copyright": "© 2024 Guru Astrology. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "language": "English"
+}
