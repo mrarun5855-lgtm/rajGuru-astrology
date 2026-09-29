@@ -150,6 +150,15 @@ export default function Header() {
 
             {/* Desktop Actions */}
             <div className="hidden lg:flex items-center gap-4">
+              <Link
+                href={`/${locale}/register`}
+                className="btn-primary text-sm py-2 px-5 no-underline"
+                style={{ color: "white" }}
+              >
+                Sign In
+              </Link>
+            </div>
+            <div className="hidden lg:flex items-center gap-4">
               {/* <button
                 onClick={() => setSearchOpen(!searchOpen)}
                 className="w-9 h-9 rounded-full flex items-center justify-center transition-all"
